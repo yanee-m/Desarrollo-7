@@ -6,7 +6,7 @@
   </head>
   <body>
     <?php
-    echo <table border=1>;
+    echo "<table border=1>";
     $n = 1;
     for ($n1 = 1; $n1<=10; $n1++){
       echo "<tr>";
