@@ -8,11 +8,11 @@ $titulo=$_POST['titulo'];
 $texto=$_POST['texto'];
 $categoria=$_POST['categoria'];
  
-// Store  Procedure for Updation
+
 $sql=mysqli_query($con,"call sp_updaterow('$titulo', '$texto', '$categoria', '$rid')");
-// Mesage after updation
+
 echo "<script>alert('Se actualizó el registro correctamente!');</script>";
-// Code for redirection
+
 echo "<script>window.location.href='../Parcial3/Parcial3.php'</script>"; 
 }
 ?>
